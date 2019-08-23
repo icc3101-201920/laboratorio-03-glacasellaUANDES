@@ -1,0 +1,11 @@
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.deps.json
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.runtimeconfig.json
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.runtimeconfig.dev.json
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.dll
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\bin\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.pdb
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.csprojAssemblyReference.cache
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.csproj.CoreCompileInputs.cache
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.AssemblyInfoInputs.cache
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.AssemblyInfo.cs
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.dll
+D:\Users\cardi\OneDrive\Documents\Universidad\2019-02\OOP\Laboratorios\Laboratorio_2_OOP_201902\Laboratorio_2_OOP_201902\obj\Debug\netcoreapp2.1\Laboratorio_2_OOP_201902.pdb
