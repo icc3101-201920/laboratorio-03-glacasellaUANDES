@@ -97,14 +97,18 @@ namespace Laboratorio_2_OOP_201902
                         throw new IndexOutOfRangeException("No player id given");
                     }
                 }
+                // Revisamos si el tipo de cart es buffer
                 else if (card.GetType().Name == "buffer")
                 {
+                    // Revisamos coincidencias de player Id
                     if (playerId == 0 || playerId == 1)
                     {
+                        // Si ya tiene el player card, tiramos un exception
                         if (playerCards[playerId].ContainsKey("buffer" + buffType))
                         {
                             throw new Exception("No se puede agregar la carta");
                         }
+                        // SI no, agregamos la carta
                         else
                         {
                             playerCards[playerId].Add("buffer", new List<Card>() { card });
@@ -139,6 +143,7 @@ namespace Laboratorio_2_OOP_201902
             };
 
             //Destruir todas las cartas
+            // Recorremos todas las entrys de los diccionarios de cada jugador y limpiamos las listas
             foreach (KeyValuePair<string, List<Card>> entry in playerCards[0])
             {
                 entry.Value.Clear();
