@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\cardi\\OneDrive\\Documents\\Universidad\\2019-02\\OOP\\Laboratorios\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj": {}
+    "D:\\Personal\\UANDES\\Semestre  IV\\Programacion  Orientada a  Objetos\\Github_Entregas\\Laboratorio4\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj": {}
   },
   "projects": {
-    "D:\\Users\\cardi\\OneDrive\\Documents\\Universidad\\2019-02\\OOP\\Laboratorios\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj": {
+    "D:\\Personal\\UANDES\\Semestre  IV\\Programacion  Orientada a  Objetos\\Github_Entregas\\Laboratorio4\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\cardi\\OneDrive\\Documents\\Universidad\\2019-02\\OOP\\Laboratorios\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj",
+        "projectUniqueName": "D:\\Personal\\UANDES\\Semestre  IV\\Programacion  Orientada a  Objetos\\Github_Entregas\\Laboratorio4\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj",
         "projectName": "Laboratorio_2_OOP_201902",
-        "projectPath": "D:\\Users\\cardi\\OneDrive\\Documents\\Universidad\\2019-02\\OOP\\Laboratorios\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj",
-        "packagesPath": "C:\\Users\\cardi\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\cardi\\OneDrive\\Documents\\Universidad\\2019-02\\OOP\\Laboratorios\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902\\obj\\",
+        "projectPath": "D:\\Personal\\UANDES\\Semestre  IV\\Programacion  Orientada a  Objetos\\Github_Entregas\\Laboratorio4\\Laboratorio_2_OOP_201902\\Laboratorio_2_OOP_201902.csproj",
+        "packagesPath": "C:\\Users\\Gianfranco Lacasella\\.nuget\\packages\\",
+        "outputPath": "D:\\Personal\\UANDES\\Semestre  IV\\Programacion  Orientada a  Objetos\\Github_Entregas\\Laboratorio4\\Laboratorio_2_OOP_201902\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cardi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gianfranco Lacasella\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,6 +42,7 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true

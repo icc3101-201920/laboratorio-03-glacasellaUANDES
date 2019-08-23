@@ -30,6 +30,39 @@ namespace Laboratorio_2_OOP_201902.Card
             BuffType = null;
         }
 
-
+        //Propiedades
+        public override string Name
+        {
+            get
+            {
+                return this.name;
+            }
+            set
+            {
+                this.name = value;
+            }
+        }
+        public override string Type
+        {
+            get
+            {
+                return this.type;
+            }
+            set
+            {
+                this.type = value;
+            }
+        }
+        public override string Effect
+        {
+            get
+            {
+                return this.effect;
+            }
+            set
+            {
+                this.effect = value;
+            }
+        }
     }
 }
