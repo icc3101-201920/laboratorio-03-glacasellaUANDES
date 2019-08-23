@@ -1,4 +1,4 @@
-﻿using Laboratorio_2_OOP_201902.Card;
+﻿using Laboratorio_2_OOP_201902;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Laboratorio_2_OOP_201902.Card
+namespace Laboratorio_2_OOP_201902
 {
     public class SpecialCard : Card
     {
