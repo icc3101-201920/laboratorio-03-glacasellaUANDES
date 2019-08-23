@@ -92,16 +92,66 @@ namespace Laboratorio_2_OOP_201902
                             playerCards[playerId].Add("captain", new List<Card>() { card });
                         }
                     }
+                    else
+                    {
+                        throw new IndexOutOfRangeException("No player id given");
+                    }
                 }
-                
-                 
-                
-                //Es buffer? IMPLEMENTAR
-                //Revisar si no se a agregado un buffer en la fila de tipo de combate del diccionario que representa las cartas del jugador, en caso de existir, no permitir que se agregue la carta.
-                //Para esto , asuma que los valores de buffType pueden ser "melee", "range" o "longRange". Luego , asuma que la llave de esta carta ser card.Type + buffType , por ejemplo,
-                //en el caso de que exista un buff en range , la llave sera Buffrange. Debe revisar que no exista la llave card.Type+buffType.
-                //Es weather? Agregue la carta weather a la lista de cartas weather.
+                else if (card.GetType().Name == "buffer")
+                {
+                    if (playerId == 0 || playerId == 1)
+                    {
+                        if (playerCards[playerId].ContainsKey("buffer" + buffType))
+                        {
+                            throw new Exception("No se puede agregar la carta");
+                        }
+                        else
+                        {
+                            playerCards[playerId].Add("buffer", new List<Card>() { card });
+                        }
+                    }
+                    else
+                    {
+                        throw new IndexOutOfRangeException("No player id given");
+                    }
+                }
+                else if (card.GetType().Name == "weather")
+                {
+                    if (playerId == 0 || playerId == 1)
+                    {
+                        playerCards[playerId]["weather"].Add(card);
+                    }
+                    else
+                    {
+                        throw new IndexOutOfRangeException("No player id given");
+                    }
+                }
             }
+        }
+
+        public void DestroyCards()
+        {
+            //Guardar las cartas de capitan en una variable temporal
+            List<Card>[] captainCards = new List<Card>[DEFAULT_NUMBER_OF_PLAYERS]
+            {
+                new List<Card>(playerCards[0]["captain"]),
+                new List<Card>(playerCards[1]["captain"])
+            };
+
+            //Destruir todas las cartas
+            foreach (KeyValuePair<string, List<Card>> entry in playerCards[0])
+            {
+                entry.Value.Clear();
+            }
+
+            foreach (KeyValuePair<string, List<Card>> entry in playerCards[1])
+            {
+                entry.Value.Clear();
+            }
+
+            //Agregar nuevamente los capitanes
+            playerCards[0]["captain"] = captainCards[0];
+            playerCards[1]["captain"] = captainCards[1];
         }
     }
 }
